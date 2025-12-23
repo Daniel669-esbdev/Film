@@ -80,7 +80,7 @@ class FilmTest {
             throw new ValidationException("Дата релиза не может быть раньше 28 декабря 1950 года");
         }
         if (film.getDuration() <= 0) {
-            throw new ValidationException("Продолжительность должна быть положительной");
+            throw new ValidationException("Продолжительность должна быть положительной"); //
         }
     }
 }
